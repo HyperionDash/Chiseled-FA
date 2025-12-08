@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chiseled:block/gilded_small_polished_blackstone_bricks"
+  }
+}

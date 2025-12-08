@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "sd ",
+    "ds ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:stone_tiles"
+    },
+    "d": {
+      "item": "chiseled:deepslate_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_stone_tiles",
+    "count": 4
+  }
+}

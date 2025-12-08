@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " g ",
+    " g ",
+    "   "
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:polished_diorite_brick_slab"
+    }
+  },
+  "result": {
+    "id": "chiseled:chiseled_polished_diorite_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "chiseled:polished_stone"
+    },
+    {
+      "item": "chiseled:stone_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:stone_tile_stairs"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "chiseled:mossy_small_stone_bricks"
+  },
+  "result": {
+    "id": "chiseled:mossy_small_stone_brick_wall"
+  }
+}

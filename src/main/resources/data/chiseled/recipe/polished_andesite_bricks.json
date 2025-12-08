@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gg ",
+    "gg ",
+    "   "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_andesite_bricks",
+    "count": 4
+  }
+}

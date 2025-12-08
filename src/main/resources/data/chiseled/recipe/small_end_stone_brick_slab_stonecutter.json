@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "chiseled:polished_end_stone"
+    },
+    {
+      "item": "minecraft:end_stone_bricks"
+    },
+    {
+      "item": "chiseled:small_end_stone_bricks"
+    }
+  ],
+  "result": {
+    "id": "chiseled:small_end_stone_brick_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "qqq",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "id": "chiseled:quartz_wall",
+    "count": 6
+  }
+}

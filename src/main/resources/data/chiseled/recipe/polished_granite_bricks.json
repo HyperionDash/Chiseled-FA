@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gg ",
+    "gg ",
+    "   "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_granite_bricks",
+    "count": 4
+  }
+}

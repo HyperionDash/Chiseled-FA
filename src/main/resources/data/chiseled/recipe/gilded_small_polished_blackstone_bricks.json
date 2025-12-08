@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "bg ",
+    "gb ",
+    "   "
+  ],
+  "key": {
+    "b": {
+      "item": "chiseled:small_polished_blackstone_bricks"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "id": "chiseled:gilded_small_polished_blackstone_bricks",
+    "count": 2
+  }
+}

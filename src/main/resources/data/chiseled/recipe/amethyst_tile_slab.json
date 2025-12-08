@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "aaa",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "chiseled:amethyst_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:amethyst_tile_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:sandstone"
+    },
+    {
+      "item": "minecraft:smooth_sandstone"
+    },
+    {
+      "item": "chiseled:sandstone_tiles"
+    },
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    {
+      "item": "chiseled:red_sandstone_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:mixed_sandstone_tiles"
+  }
+}

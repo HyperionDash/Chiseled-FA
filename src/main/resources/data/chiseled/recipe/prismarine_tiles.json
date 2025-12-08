@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " p ",
+    " p ",
+    "   "
+  ],
+  "key": {
+    "p": {
+      "item": "chiseled:polished_prismarine_slab"
+    }
+  },
+  "result": {
+    "id": "chiseled:prismarine_tiles"
+  }
+}

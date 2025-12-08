@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ggg",
+    "   "
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:polished_granite_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_granite_tile_slab",
+    "count": 6
+  }
+}

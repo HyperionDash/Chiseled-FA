@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "sss",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:mixed_sandstone_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_sandstone_tile_slab",
+    "count": 6
+  }
+}

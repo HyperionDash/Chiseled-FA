@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "n  ",
+    "nn ",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "id": "chiseled:netherite_stairs"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "t  ",
+    "tt ",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:gray_terracotta"
+    }
+  },
+  "result": {
+    "id": "chiseled:gray_terracotta_stairs",
+    "count": 4
+  }
+}

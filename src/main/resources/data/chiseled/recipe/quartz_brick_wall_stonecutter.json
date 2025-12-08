@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_bricks"
+    }
+  ],
+  "result": {
+    "id": "chiseled:quartz_brick_wall"
+  }
+}

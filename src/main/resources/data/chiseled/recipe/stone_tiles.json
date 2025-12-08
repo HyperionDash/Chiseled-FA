@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:polished_stone_slab"
+    }
+  },
+  "result": {
+    "id": "chiseled:stone_tiles",
+    "count": 1
+  }
+}

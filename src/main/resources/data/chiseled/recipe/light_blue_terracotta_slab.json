@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ttt",
+    "   "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:light_blue_terracotta"
+    }
+  },
+  "result": {
+    "id": "chiseled:light_blue_terracotta_slab",
+    "count": 6
+  }
+}

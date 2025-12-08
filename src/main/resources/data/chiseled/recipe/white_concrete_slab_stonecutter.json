@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:white_concrete"
+  },
+  "result": {
+    "id": "chiseled:white_concrete_slab",
+    "count": 2
+  }
+}

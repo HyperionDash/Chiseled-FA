@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "chiseled:gilded_polished_blackstone_bricks"
+  },
+  "result": {
+    "id": "chiseled:gilded_polished_blackstone_brick_wall"
+  }
+}

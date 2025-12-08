@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "chiseled:end_stone_tiles"
+  },
+  "result": {
+    "id": "chiseled:cracked_end_stone_tiles"
+  },
+  "experience": 0.1
+}

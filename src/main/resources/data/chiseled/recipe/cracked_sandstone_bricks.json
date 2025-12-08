@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "chiseled:sandstone_bricks"
+  },
+  "result": {
+    "id": "chiseled:cracked_sandstone_bricks"
+  },
+  "experience": 0.1
+}

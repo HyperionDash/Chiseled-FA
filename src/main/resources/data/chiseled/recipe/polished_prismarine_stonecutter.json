@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:prismarine"
+    }
+  ],
+  "result": {
+    "id": "chiseled:polished_prismarine"
+  }
+}

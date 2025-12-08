@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " q ",
+    " q ",
+    "   "
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "id": "chiseled:quartz_tiles"
+  }
+}

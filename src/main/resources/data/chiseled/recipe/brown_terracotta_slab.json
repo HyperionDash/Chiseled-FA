@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ttt",
+    "   "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:brown_terracotta"
+    }
+  },
+  "result": {
+    "id": "chiseled:brown_terracotta_slab",
+    "count": 6
+  }
+}

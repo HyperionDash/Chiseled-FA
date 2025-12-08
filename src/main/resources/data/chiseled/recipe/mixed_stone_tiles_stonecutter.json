@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "chiseled:polished_stone"
+    },
+    {
+      "item": "chiseled:stone_tiles"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:polished_deepslate"
+    },
+    {
+      "item": "chiseled:deepslate_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:mixed_stone_tiles"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:dark_prismarine"
+    },
+    {
+      "item": "chiseled:dark_prismarine_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:dark_prismarine_tile_stairs"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:basalt"
+    },
+    {
+      "item": "minecraft:smooth_basalt"
+    }
+  ],
+  "result": {
+    "id": "chiseled:smooth_basalt_slab",
+    "count": 2
+  }
+}

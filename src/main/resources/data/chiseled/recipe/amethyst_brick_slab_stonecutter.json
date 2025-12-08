@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "chiseled:amethyst_bricks"
+    }
+  ],
+  "result": {
+    "id": "chiseled:amethyst_brick_slab",
+    "count": 2
+  }
+}

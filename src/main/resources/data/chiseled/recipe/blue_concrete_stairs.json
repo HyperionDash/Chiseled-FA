@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "t  ",
+    "tt ",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "id": "chiseled:blue_concrete_stairs",
+    "count": 4
+  }
+}

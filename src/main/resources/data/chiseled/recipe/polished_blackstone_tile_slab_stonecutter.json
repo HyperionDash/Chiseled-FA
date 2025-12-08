@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:blackstone"
+    },
+    {
+      "item": "minecraft:polished_blackstone"
+    },
+    {
+      "item": "chiseled:polished_blackstone_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:polished_blackstone_tile_slab",
+    "count": 2
+  }
+}

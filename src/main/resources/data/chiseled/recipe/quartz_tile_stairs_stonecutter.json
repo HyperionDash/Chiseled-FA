@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "chiseled:quartz_tiles"
+    }
+  ],
+  "result": {
+    "id": "chiseled:quartz_tile_stairs"
+  }
+}

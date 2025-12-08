@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ggg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_diorite_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "chiseled:weathered_bricks"
+    }
+  },
+  "result": {
+    "id": "chiseled:weathered_brick_wall",
+    "count": 6
+  }
+}

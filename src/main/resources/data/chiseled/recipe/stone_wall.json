@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "sss",
+    "sss",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "id": "chiseled:stone_wall",
+    "count": 6
+  }
+}

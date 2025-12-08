@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "pd ",
+    "dp ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "chiseled:dark_prismarine_tiles"
+    },
+    "p": {
+      "item": "chiseled:prismarine_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_prismarine_tiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "chiseled:weathered_bricks"
+  },
+  "result": {
+    "id": "chiseled:weathered_brick_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "chiseled:small_polished_blackstone_bricks"
+    }
+  },
+  "result": {
+    "id": "chiseled:small_polished_blackstone_brick_wall",
+    "count": 6
+  }
+}

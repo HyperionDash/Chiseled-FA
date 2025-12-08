@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result": {
+    "id": "chiseled:orange_terracotta_wall",
+    "count": 6
+  }
+}

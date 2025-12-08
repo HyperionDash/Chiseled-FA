@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "id": "chiseled:black_concrete_wall",
+    "count": 6
+  }
+}

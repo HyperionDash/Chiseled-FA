@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:prismarine"
+    },
+    {
+      "item": "minecraft:prismarine_bricks"
+    }
+  ],
+  "result": {
+    "id": "chiseled:prismarine_brick_wall"
+  }
+}

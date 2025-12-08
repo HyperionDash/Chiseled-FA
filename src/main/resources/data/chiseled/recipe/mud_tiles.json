@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " m ",
+    " m ",
+    "   "
+  ],
+  "key": {
+    "m": {
+      "item": "chiseled:packed_mud_slab"
+    }
+  },
+  "result": {
+    "id": "chiseled:mud_tiles"
+  }
+}

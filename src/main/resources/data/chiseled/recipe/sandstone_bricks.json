@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ss ",
+    "ss ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:cut_sandstone"
+    }
+  },
+  "result": {
+    "id": "chiseled:sandstone_bricks"
+  }
+}

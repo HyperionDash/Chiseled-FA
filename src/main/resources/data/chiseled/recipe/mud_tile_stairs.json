@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "m  ",
+    "mm ",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "chiseled:mud_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mud_tile_stairs",
+    "count": 4
+  }
+}

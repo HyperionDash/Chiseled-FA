@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "b  ",
+    "bb ",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "chiseled:gilded_polished_blackstone_bricks"
+    }
+  },
+  "result": {
+    "id": "chiseled:gilded_polished_blackstone_brick_stairs",
+    "count": 4
+  }
+}

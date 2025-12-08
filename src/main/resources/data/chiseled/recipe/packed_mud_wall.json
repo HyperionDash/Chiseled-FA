@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "mmm",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "result": {
+    "id": "chiseled:packed_mud_wall",
+    "count": 6
+  }
+}

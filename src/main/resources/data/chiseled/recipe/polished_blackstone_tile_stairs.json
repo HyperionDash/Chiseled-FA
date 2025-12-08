@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b  ",
+    "bb ",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "chiseled:polished_blackstone_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_blackstone_tile_stairs",
+    "count": 4
+  }
+}

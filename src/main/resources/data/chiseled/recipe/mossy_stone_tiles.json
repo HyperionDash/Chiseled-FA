@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "chiseled:stone_tiles"
+    },
+    [
+      {
+        "item": "minecraft:moss_block"
+      },
+      {
+        "item": "minecraft:vine"
+      }
+    ]
+  ],
+  "result": {
+    "id": "chiseled:mossy_stone_tiles"
+  }
+}

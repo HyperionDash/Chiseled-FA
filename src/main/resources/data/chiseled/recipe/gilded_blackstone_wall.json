@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:gilded_blackstone"
+    }
+  },
+  "result": {
+    "id": "chiseled:gilded_blackstone_wall",
+    "count": 6
+  }
+}

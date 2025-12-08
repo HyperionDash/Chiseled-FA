@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " m ",
+    "msm",
+    " m "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:mud_tiles"
+    },
+    "m": {
+      "tag": "nomansland:alternative_moss"
+    }
+  },
+  "result": {
+    "id": "chiseled:mossy_mud_tiles"
+  }
+}

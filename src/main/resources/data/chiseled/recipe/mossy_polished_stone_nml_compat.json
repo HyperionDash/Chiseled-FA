@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " m ",
+    "msm",
+    " m "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:polished_stone"
+    },
+    "m": {
+      "tag": "nomansland:alternative_moss"
+    }
+  },
+  "result": {
+    "id": "chiseled:mossy_polished_stone",
+    "count": 4
+  }
+}

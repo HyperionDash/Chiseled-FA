@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ppp",
+    "   "
+  ],
+  "key": {
+    "p": {
+      "item": "chiseled:polished_prismarine"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_prismarine_slab",
+    "count": 6
+  }
+}

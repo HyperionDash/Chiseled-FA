@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "g  ",
+    "gg ",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:polished_diorite_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:polished_diorite_tile_stairs",
+    "count": 4
+  }
+}

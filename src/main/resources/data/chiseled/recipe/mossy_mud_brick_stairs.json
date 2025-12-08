@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "m  ",
+    "mm ",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "chiseled:mossy_mud_bricks"
+    }
+  },
+  "result": {
+    "id": "chiseled:mossy_mud_brick_stairs",
+    "count": 4
+  }
+}

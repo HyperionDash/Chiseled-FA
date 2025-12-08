@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "s  ",
+    "ss ",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:stone_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:stone_tile_stairs",
+    "count": 4
+  }
+}

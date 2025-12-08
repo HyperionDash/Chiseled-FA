@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " m ",
+    "msm",
+    " m "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:small_mud_bricks"
+    },
+    "m": {
+      "tag": "nomansland:alternative_moss"
+    }
+  },
+  "result": {
+    "id": "chiseled:mossy_small_mud_bricks"
+  }
+}

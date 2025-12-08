@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "chiseled:polished_end_stone"
+    }
+  ],
+  "result": {
+    "id": "chiseled:end_stone_tiles"
+  }
+}

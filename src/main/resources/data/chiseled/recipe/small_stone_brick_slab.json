@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "sss",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "chiseled:small_stone_bricks"
+    }
+  },
+  "result": {
+    "id": "chiseled:small_stone_brick_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:red_terracotta"
+    }
+  },
+  "result": {
+    "id": "chiseled:red_terracotta_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:black_concrete"
+  },
+  "result": {
+    "id": "chiseled:black_concrete_wall"
+  }
+}

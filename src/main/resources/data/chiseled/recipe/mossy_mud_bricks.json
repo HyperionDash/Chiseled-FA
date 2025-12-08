@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:mud_bricks"
+    },
+    [
+      {
+        "item": "minecraft:moss_block"
+      },
+      {
+        "item": "minecraft:vine"
+      }
+    ]
+  ],
+  "result": {
+    "id": "chiseled:mossy_mud_bricks"
+  }
+}

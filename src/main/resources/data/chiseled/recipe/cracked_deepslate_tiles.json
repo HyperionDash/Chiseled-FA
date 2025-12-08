@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "chiseled:deepslate_tiles"
+  },
+  "result": {
+    "id": "chiseled:cracked_deepslate_tiles"
+  },
+  "experience": 0.1
+}
