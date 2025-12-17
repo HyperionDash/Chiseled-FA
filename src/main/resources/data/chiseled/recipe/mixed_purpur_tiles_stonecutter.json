@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "chiseled:polished_end_stone"
+    },
+    {
+      "item": "chiseled:end_stone_tiles"
+    },
+    {
+      "item": "minecraft:purpur_block"
+    }
+  ],
+  "result": {
+    "id": "chiseled:mixed_purpur_tiles"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chiseled:block/mixed_purpur_tile_slab"
+    },
+    "type=double": {
+      "model": "chiseled:block/mixed_purpur_tiles"
+    },
+    "type=top": {
+      "model": "chiseled:block/mixed_purpur_tile_slab_top"
+    }
+  }
+}

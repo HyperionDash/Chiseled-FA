@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "igi",
+    " i "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "chiseled:framed_orange_stained_glass_pane"
+  }
+}

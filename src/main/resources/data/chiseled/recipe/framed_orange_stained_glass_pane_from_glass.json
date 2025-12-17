@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "ggg",
+    "   "
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:framed_orange_stained_glass"
+    }
+  },
+  "result": {
+    "id": "chiseled:framed_orange_stained_glass_pane",
+    "count": 16
+  }
+}

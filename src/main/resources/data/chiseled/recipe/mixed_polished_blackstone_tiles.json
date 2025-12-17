@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "qb ",
+    "bq ",
+    "   "
+  ],
+  "key": {
+    "q": {
+      "item": "chiseled:quartz_tiles"
+    },
+    "b": {
+      "item": "chiseled:polished_blackstone_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_polished_blackstone_tiles",
+    "count": 4
+  }
+}

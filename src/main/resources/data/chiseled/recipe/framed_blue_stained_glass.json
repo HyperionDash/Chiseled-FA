@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "igi",
+    " i "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "chiseled:framed_blue_stained_glass"
+  }
+}

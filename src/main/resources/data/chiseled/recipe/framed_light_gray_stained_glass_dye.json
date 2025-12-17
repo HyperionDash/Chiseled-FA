@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gdg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:framed_glass"
+    },
+    "d": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "id": "chiseled:framed_light_gray_stained_glass",
+    "count": 8
+  }
+}

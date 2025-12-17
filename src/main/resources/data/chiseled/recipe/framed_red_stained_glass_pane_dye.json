@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gdg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "chiseled:framed_glass_pane"
+    },
+    "d": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "chiseled:framed_red_stained_glass_pane",
+    "count": 8
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ep ",
+    "pe ",
+    "   "
+  ],
+  "key": {
+    "e": {
+      "item": "chiseled:end_stone_tiles"
+    },
+    "p": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_purpur_tiles",
+    "count": 4
+  }
+}

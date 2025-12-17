@@ -6,6 +6,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -324,6 +325,28 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.GILDED_BLACKSTONE)));
     public static final Block GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL = registerBlock("gilded_small_polished_blackstone_brick_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.GILDED_BLACKSTONE)));
+
+    public static final Block MIXED_POLISHED_BLACKSTONE_TILES = registerBlock("mixed_polished_blackstone_tiles",
+            new Block(AbstractBlock.Settings.copy(Blocks.BLACKSTONE)));
+    public static final Block MIXED_POLISHED_BLACKSTONE_TILE_SLAB = registerBlock("mixed_polished_blackstone_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BLACKSTONE)));
+    public static final Block QUARTZ_WALL = registerBlock("quartz_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BLOCK)));
+    public static final Block SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ)));
+    public static final Block QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
+            new StairsBlock(Blocks.QUARTZ_BRICKS.getDefaultState(),AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+    public static final Block QUARTZ_BRICK_SLAB = registerBlock("quartz_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+    public static final Block QUARTZ_BRICK_WALL = registerBlock("quartz_brick_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+    public static final Block QUARTZ_TILES = registerBlock("quartz_tiles",
+            new Block(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+    public static final Block QUARTZ_TILE_STAIRS = registerBlock("quartz_tile_stairs",
+            new StairsBlock(ModBlocks.QUARTZ_TILES.getDefaultState(),AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+    public static final Block QUARTZ_TILE_SLAB = registerBlock("quartz_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
+
     public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
             new StairsBlock(Blocks.END_STONE.getDefaultState(),AbstractBlock.Settings.copy(Blocks.END_STONE)));
     public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
@@ -360,24 +383,15 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS)));
     public static final Block SMALL_END_STONE_BRICK_WALL = registerBlock("small_end_stone_brick_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS)));
+
+    public static final Block MIXED_PURPUR_TILES = registerBlock("mixed_purpur_tiles",
+            new Block(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK)));
+    public static final Block MIXED_PURPUR_TILE_SLAB = registerBlock("mixed_purpur_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK)));
+
+
     public static final Block NETHERITE_STAIRS = registerBlock("netherite_stairs",
             new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(),AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
-    public static final Block QUARTZ_WALL = registerBlock("quartz_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BLOCK)));
-    public static final Block SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ)));
-    public static final Block QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
-            new StairsBlock(Blocks.QUARTZ_BRICKS.getDefaultState(),AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
-    public static final Block QUARTZ_BRICK_SLAB = registerBlock("quartz_brick_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
-    public static final Block QUARTZ_BRICK_WALL = registerBlock("quartz_brick_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
-    public static final Block QUARTZ_TILES = registerBlock("quartz_tiles",
-            new Block(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
-    public static final Block QUARTZ_TILE_STAIRS = registerBlock("quartz_tile_stairs",
-            new StairsBlock(ModBlocks.QUARTZ_TILES.getDefaultState(),AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
-    public static final Block QUARTZ_TILE_SLAB = registerBlock("quartz_tile_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BRICKS)));
     public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
             new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(),AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)));
     public static final Block AMETHYST_SLAB = registerBlock("amethyst_slab",
@@ -596,6 +610,76 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
     public static final Block PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE)));
+
+    public static final Block FRAMED_GLASS = registerBlock("framed_glass",
+            new StainedGlassBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.GLASS)));
+    public static final Block FRAMED_GLASS_PANE = registerBlock("framed_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.GLASS)));
+    public static final Block FRAMED_WHITE_STAINED_GLASS = registerBlock("framed_white_stained_glass",
+            new StainedGlassBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS)));
+    public static final Block FRAMED_WHITE_STAINED_GLASS_PANE = registerBlock("framed_white_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS)));
+    public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS = registerBlock("framed_light_gray_stained_glass",
+            new StainedGlassBlock(DyeColor.LIGHT_GRAY, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)));
+    public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS_PANE = registerBlock("framed_light_gray_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.LIGHT_GRAY, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)));
+    public static final Block FRAMED_GRAY_STAINED_GLASS = registerBlock("framed_gray_stained_glass",
+            new StainedGlassBlock(DyeColor.GRAY, AbstractBlock.Settings.copy(Blocks.GRAY_STAINED_GLASS)));
+    public static final Block FRAMED_GRAY_STAINED_GLASS_PANE = registerBlock("framed_gray_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.GRAY, AbstractBlock.Settings.copy(Blocks.GRAY_STAINED_GLASS)));
+    public static final Block FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
+            new StainedGlassBlock(DyeColor.BLACK, AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)));
+    public static final Block FRAMED_BLACK_STAINED_GLASS_PANE = registerBlock("framed_black_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.BLACK, AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)));
+    public static final Block FRAMED_BROWN_STAINED_GLASS = registerBlock("framed_brown_stained_glass",
+            new StainedGlassBlock(DyeColor.BROWN, AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)));
+    public static final Block FRAMED_BROWN_STAINED_GLASS_PANE = registerBlock("framed_brown_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.BROWN, AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)));
+    public static final Block FRAMED_RED_STAINED_GLASS = registerBlock("framed_red_stained_glass",
+            new StainedGlassBlock(DyeColor.RED, AbstractBlock.Settings.copy(Blocks.RED_STAINED_GLASS)));
+    public static final Block FRAMED_RED_STAINED_GLASS_PANE = registerBlock("framed_red_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.RED, AbstractBlock.Settings.copy(Blocks.RED_STAINED_GLASS)));
+    public static final Block FRAMED_ORANGE_STAINED_GLASS = registerBlock("framed_orange_stained_glass",
+            new StainedGlassBlock(DyeColor.ORANGE, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+    public static final Block FRAMED_ORANGE_STAINED_GLASS_PANE = registerBlock("framed_orange_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.ORANGE, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)));
+    public static final Block FRAMED_YELLOW_STAINED_GLASS = registerBlock("framed_yellow_stained_glass",
+            new StainedGlassBlock(DyeColor.YELLOW, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+    public static final Block FRAMED_YELLOW_STAINED_GLASS_PANE = registerBlock("framed_yellow_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.YELLOW, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)));
+    public static final Block FRAMED_LIME_STAINED_GLASS = registerBlock("framed_lime_stained_glass",
+            new StainedGlassBlock(DyeColor.LIME, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+    public static final Block FRAMED_LIME_STAINED_GLASS_PANE = registerBlock("framed_lime_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.LIME, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)));
+    public static final Block FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
+            new StainedGlassBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+    public static final Block FRAMED_GREEN_STAINED_GLASS_PANE = registerBlock("framed_green_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)));
+    public static final Block FRAMED_CYAN_STAINED_GLASS = registerBlock("framed_cyan_stained_glass",
+            new StainedGlassBlock(DyeColor.CYAN, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+    public static final Block FRAMED_CYAN_STAINED_GLASS_PANE = registerBlock("framed_cyan_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.CYAN, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)));
+    public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS = registerBlock("framed_light_blue_stained_glass",
+            new StainedGlassBlock(DyeColor.LIGHT_BLUE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+    public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS_PANE = registerBlock("framed_light_blue_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.LIGHT_BLUE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+    public static final Block FRAMED_BLUE_STAINED_GLASS = registerBlock("framed_blue_stained_glass",
+            new StainedGlassBlock(DyeColor.BLUE, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+    public static final Block FRAMED_BLUE_STAINED_GLASS_PANE = registerBlock("framed_blue_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.BLUE, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)));
+    public static final Block FRAMED_PURPLE_STAINED_GLASS = registerBlock("framed_purple_stained_glass",
+            new StainedGlassBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+    public static final Block FRAMED_PURPLE_STAINED_GLASS_PANE = registerBlock("framed_purple_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)));
+    public static final Block FRAMED_MAGENTA_STAINED_GLASS = registerBlock("framed_magenta_stained_glass",
+            new StainedGlassBlock(DyeColor.MAGENTA, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+    public static final Block FRAMED_MAGENTA_STAINED_GLASS_PANE = registerBlock("framed_magenta_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.MAGENTA, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)));
+    public static final Block FRAMED_PINK_STAINED_GLASS = registerBlock("framed_pink_stained_glass",
+            new StainedGlassBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+    public static final Block FRAMED_PINK_STAINED_GLASS_PANE = registerBlock("framed_pink_stained_glass_pane",
+            new StainedGlassPaneBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
+    
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
             new StairsBlock(Blocks.CALCITE.getDefaultState(),AbstractBlock.Settings.copy(Blocks.CALCITE)));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab",

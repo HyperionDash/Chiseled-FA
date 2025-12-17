@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "mmm",
+    "   "
+  ],
+  "key": {
+    "m": {
+      "item": "chiseled:mixed_polished_blackstone_tiles"
+    }
+  },
+  "result": {
+    "id": "chiseled:mixed_polished_blackstone_tile_slab",
+    "count": 6
+  }
+}

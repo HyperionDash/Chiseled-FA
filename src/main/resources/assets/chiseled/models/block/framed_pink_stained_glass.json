@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chiseled:block/framed_pink_stained_glass"
+  },
+  "render_type": "translucent"
+}
