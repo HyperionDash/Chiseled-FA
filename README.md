@@ -8,7 +8,9 @@
 #
 <p align="center">Chiseled is a small building blocks mod that i will slowly expand over time heavily inspired by mods like <a href="https://modrinth.com/project/BAscRYKm"><span style="text-align:center">Chipped</span></a>, <a href="https://modrinth.com/project/XQx4LD8f"><span style="text-align:center">Desire</span></a>, <a href="https://modrinth.com/project/OmyoZPgm"><span style="text-align:center">Bountiful Blocks</span></a> and <a href= "https://modrinth.com/project/RG50cUrX"><span style="text-align:center">Twigs</span></a><p>
 
-**<p align="center">Current Block Count: 295<p>**
+<p align="center">Chiseled Github Pages: <a href="https://github.com/HyperionDash/Chiseled-NF"><span style="text-align:center">Neoforge</span></a>, <a href="https://github.com/HyperionDash/Chiseled-NF/issues"><span style="text-align:center">Neoforge Issues</span></a>, <a href="https://github.com/HyperionDash/Chiseled-FA"><span style="text-align:center">Fabric</span></a>, <a href="https://github.com/HyperionDash/Chiseled-FA/issues"><span style="text-align:center">Fabric Issues</span></a><p>
+
+**<p align="center">Final Block Count: 333<p>**
 
 # 
 
@@ -43,7 +45,4 @@
 <p align="center">A: of course, you can do this with any of my projects aslong as the download stays hosted within the modrinth ecosystem :3</p>
 
 **<p align="center">Q: Will this mod be ported to other loaders/versions?</p>**
-<p align="center">A: ports are planned for the future of this mod, due to its simplistic nature, its not too hard to port to other loaders, however it is still in its early stages and wont be ported past nf 1.21.1 till its first full release, but due to a mess up, i will no longer be porting to other versions</p>
-
-**<p align="center">Q: Why is there so little in the mod?</p>**
-<p align="center">A: instead of waiting for the full mod to be finished, im instead releasing minor beta versions one at a time, each containing a new set of blocks expanding upon vanilla blocksets</p>
+<p align="center">A: currently, all planned ports have been made, porting to future versions will no longer be happening and the fabric port has already been made, any mods made in the future will be exclusively for fabric in earliest 1.21</p>

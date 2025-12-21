@@ -356,6 +356,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MIXED_PURPUR_TILES);
                         entries.add(ModBlocks.MIXED_PURPUR_TILE_SLAB);
 
+                        entries.add(Blocks.PURPUR_PILLAR);
                         entries.add(Blocks.PURPUR_BLOCK);
                         entries.add(Blocks.PURPUR_STAIRS);
                         entries.add(Blocks.PURPUR_SLAB);
