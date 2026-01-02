@@ -36,7 +36,7 @@
 <p align="center">And if you just wanted to see what the mod adds, here you go :3<p>
 
 <div align="center">
-<img src="https://cdn.modrinth.com/data/R97ceX9b/images/9dcb7452ec2bae29123cdfe59c86c9a0f834ceba.png">
+<img src="https://cdn.modrinth.com/data/R97ceX9b/images/0b5d04ed657aa2e78ce6e17d1fe3627093417d70.png">
 <div>
 </details>
 
