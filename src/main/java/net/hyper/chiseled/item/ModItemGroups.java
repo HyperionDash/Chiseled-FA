@@ -584,10 +584,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FRAMED_PURPLE_STAINED_GLASS_PANE);
                         entries.add(ModBlocks.FRAMED_MAGENTA_STAINED_GLASS_PANE);
                         entries.add(ModBlocks.FRAMED_PINK_STAINED_GLASS_PANE);
-                        
+
                     }).build());
 
     public static void registerItemGroups() {
-        Chiseled.LOGGER.info("Registering Item Groups for " + Chiseled.MOD_ID);
     }
 }

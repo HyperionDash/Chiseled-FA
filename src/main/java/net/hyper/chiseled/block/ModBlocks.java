@@ -679,7 +679,7 @@ public class ModBlocks {
             new StainedGlassBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
     public static final Block FRAMED_PINK_STAINED_GLASS_PANE = registerBlock("framed_pink_stained_glass_pane",
             new StainedGlassPaneBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)));
-    
+
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
             new StairsBlock(Blocks.CALCITE.getDefaultState(),AbstractBlock.Settings.copy(Blocks.CALCITE)));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
@@ -698,6 +698,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Chiseled.LOGGER.info("Registering Mod Blocks for " + Chiseled.MOD_ID);
+        Chiseled.LOGGER.info("Chiseling Bricks");
     }
 }
