@@ -698,6 +698,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Chiseled.LOGGER.info("Registering Mod Blocks for " + Chiseled.MOD_ID);
+        Chiseled.LOGGER.info("Chiseling Bricks");
     }
 }

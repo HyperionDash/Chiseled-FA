@@ -7,7 +7,6 @@ import net.hyper.chiseled.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-// Very important comment
 public class Chiseled implements ModInitializer {
     public static final String MOD_ID = "chiseled";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
