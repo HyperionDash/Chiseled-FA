@@ -1,0 +1,7 @@
+{
+  "parent": "chiseled:block/template_mixed_tile_stairs_alt",
+  "textures": {
+    "0": "chiseled:block/mixed_sandstone_tiles",
+    "1": "chiseled:block/mixed_sandstone_tiles_alt"
+  }
+}

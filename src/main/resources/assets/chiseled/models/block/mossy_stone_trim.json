@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "chiseled:block/mossy_small_stone_bricks",
+    "side": "chiseled:block/mossy_stone_trim"
+  }
+}

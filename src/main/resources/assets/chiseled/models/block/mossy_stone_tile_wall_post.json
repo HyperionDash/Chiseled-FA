@@ -1,0 +1,6 @@
+{
+  "parent": "chiseled:block/template_tile_wall_post",
+  "textures": {
+    "0": "chiseled:block/mossy_stone_tiles"
+  }
+}

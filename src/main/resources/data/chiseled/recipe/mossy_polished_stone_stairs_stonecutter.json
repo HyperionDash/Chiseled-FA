@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "chiseled:mossy_polished_stone"
-  },
-  "result": {
-    "id": "chiseled:mossy_polished_stone_stairs"
-  }
-}

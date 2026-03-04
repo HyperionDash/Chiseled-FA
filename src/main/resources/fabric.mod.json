@@ -22,11 +22,14 @@
     ],
     "client": [
       "net.hyper.chiseled.ChiseledClient"
+    ],
+    "fabric-datagen": [
+      "net.hyper.chiseled.ChiseledDataGenerator"
     ]
   },
   "depends": {
     "fabricloader": ">=0.18.1",
-    "minecraft": "~1.21",
+    "minecraft": ">=1.21 <=1.21.1",
     "java": ">=21",
     "fabric-api": "*"
   },

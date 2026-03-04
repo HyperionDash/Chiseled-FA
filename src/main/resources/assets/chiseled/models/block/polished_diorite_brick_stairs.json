@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "chiseled:block/polished_diorite_bricks",
-    "side": "chiseled:block/polished_diorite_bricks",
-    "top": "chiseled:block/polished_diorite_bricks"
-  }
-}

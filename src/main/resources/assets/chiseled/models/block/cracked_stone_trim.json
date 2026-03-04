@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "chiseled:block/cracked_small_stone_bricks",
+    "side": "chiseled:block/cracked_stone_trim"
+  }
+}

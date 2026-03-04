@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:magenta_terracotta"
-  },
-  "result": {
-    "id": "chiseled:magenta_terracotta_stairs"
-  }
-}

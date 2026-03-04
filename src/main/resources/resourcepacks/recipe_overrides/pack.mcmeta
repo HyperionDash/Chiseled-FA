@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Overrides some vanilla recipes to avoid conflicts with Chiseled."
+  }
+}
